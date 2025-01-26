@@ -1,4 +1,4 @@
-namespace Shr.Model.KV.IF;
+namespace Shr.Model.IF;
 
 public interface I_RowBaseInfo{
 	public str? bl{get;set;}
