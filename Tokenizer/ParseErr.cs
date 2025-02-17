@@ -3,7 +3,7 @@ using Shr.Tokenizer.IF;
 namespace Shr.Tokenizer;
 
 public class ParseErr :
-	Exception
+	System.Exception
 	,I_ParseErr
 {
 	public ParseErr(string message) :
